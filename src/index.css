@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'FoundersGrotesk';
+  src: url('./assets/FoundersGroteskCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CardinalFruit';
+  src: url('./assets/cardinalfruitweb-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CardinalFruit';
+  src: url('./assets/cardinalfruitweb-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-founders {
+  font-family: 'FoundersGrotesk', sans-serif;
+}
+
+.font-cardinal {
+  font-family: 'CardinalFruit', serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
